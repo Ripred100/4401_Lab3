@@ -30,5 +30,7 @@ for i = 1:NUM_OF_JOINTS % for every joint in the robot
     %points(t+(6*j), i) = p(t_val)
     end
     points(:,i) = temp
+    
 end
-
+points(:,1) = 0:30
+end
